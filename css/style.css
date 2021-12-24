@@ -1,0 +1,238 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Bebas Neue',cursive;
+    font-family: 'Cairo', sans-serif;
+    padding: 1px;
+    
+}
+.container {
+    padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* small */
+@media (max-width: 700px) {
+    .container {
+        width: 700px;
+    }
+}
+  /* medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* larg */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+
+  /* start header */
+  
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+.container nav .logo {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #e8663c;
+    font-weight: bold;
+}
+.container nav .logo span {
+    color: #e8663c;
+    opacity: 0.5;
+}
+.container nav .logo span:hover{
+    opacity: 0.9;
+}
+.container nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container nav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #e8663c ;
+    opacity: .2;
+}
+.container nav ul li a:hover {
+    opacity: .9;
+}
+
+.container .head {
+    position: relative;
+}
+.container .head img {  
+    width: 100%;
+}
+.container .head .word {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    color: white;
+}
+.container .head .word h1 {
+    text-transform: uppercase;
+    margin: 10px;
+    /* padding: 20px; */
+    font-size: 33px;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    z-index: 99;
+}
+.container .head .word p {
+    margin: 10px;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    z-index: 99;
+}
+.container .head .word .color {
+    background-color:#e8663c;
+    width: 1%;
+    height: 120px;
+    position: absolute;
+    opacity: 0.8;
+    border-radius: 10px;
+    transition: width 2s;
+
+}
+.container .head .word .color:hover{
+width: 100%;
+opacity: 0.8;
+}
+/* end header */
+/* start about  */
+.container .photo {
+display: flex;
+justify-content: space-between;
+/* flex-direction: row; */
+}  
+@media (max-width: 700px) {
+    .container .photo {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: row; */
+        }
+}
+.container .photo img{
+    width: 180px;
+    /* transition: width 2s; */
+    transition: width 3s, height 3s, transform 2s;
+
+}
+
+.container .photo img:hover {
+    width: 180px;
+    transform: rotate(30deg);
+    
+}
+
+.container .box  {
+    display: flex;
+    position: relative;
+    
+}
+.container .box .info {
+    padding: 10px;
+
+}
+.container .box .info h2 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    font-size: 15px;
+    margin: 50px;
+    margin-top: -5px;
+    color: #e8663c;
+}
+.container .box .info button {
+    text-transform: uppercase;
+    background-color:#e8663c ;
+    color: white;
+    width: 80px;
+}
+/* start line */
+.container .recent {
+    display: flex;
+    position: relative;
+}
+.container .recent p {
+    font-size: 25px;
+    color: #e8663c;
+    position: absolute;
+    text-transform: uppercase;
+}
+.container .recent .line {
+    width: 83%;
+    height: 15px;
+    background-color: rgb(202, 188, 188);
+    margin: 25px;
+    position: absolute;
+    right: -14px;
+    top: -5px;
+}
+
+/* start portfilo */
+.container .boxs {
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container .boxs .box1 {
+    border: 2px solid rgb(194, 183, 183);
+    margin: 5px;
+
+}
+.container .boxs .box1 img {
+width: 270px;
+}
+
+.container .boxs .box1 h3 {
+    color: #948884;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.container .boxs .box1 p {
+    color: #e8663c;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+/* start footer */
+.container footer {
+    background-color: #e8663c;
+    display: flex;
+    justify-content: space-around;
+}
+.container footer h5 {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+    padding: 29px;
+}
+.container footer p {
+    font-size: 14px;
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+}
+
+
+
+
+

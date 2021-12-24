@@ -1,0 +1,61 @@
+/* small */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        font-family: 'Bebas Neue',cursive;
+    }
+}
+@media (max-width: 600px){
+    .container nav {
+        width: 100%;
+        overflow: auto;
+    
+    }
+}
+@media (max-width: 600px) {
+    .container nav .logo {
+        font-size: 60px;
+        text-align: center;
+        color: #e8663c ;
+        }
+}
+@media (max-width: 600px) {
+    .container nav ul {
+        display: flex;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+}
+@media (max-width: 600px) {
+    .container nav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: #e8663c ;
+    display: flex;
+    text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .container .head {
+        position: relative;
+    }
+}
+@media (max-width: 600px) {
+    .container .head img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container .head .word {
+        position: absolute;
+        bottom: 80px;
+        left: 20px;
+        color: white;
+    }
+}
+
+
+
